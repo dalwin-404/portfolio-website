@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+
+
+
+    <title>Home |</title>
+
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar-flex container">
+            <a href="/" aria-label="Logo Home Link">
+                <h4>Winner</h4>
+            </a>
+            <div class="main-menu-items">
+                <ul class="main-menu-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#project">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/dalwin-404/" target="_blank" aria-label="Follow Me Github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+
+                    <!-- Day/Night Toggle Button -->
+                    <button id="theme-toggle-main" aria-label="Toggle Day and Night Mode" class="theme-toggle">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </ul>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu">
+                <!-- Hamburger Button -->
+                <div class="mobile-menu-toggle" role="button" aria-expanded="false" aria-controls="mobile-menu-items">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <!-- Mobile Menu Items -->
+                <div id="mobile-menu-items" class="mobile-menu-items" aria-label="Open Mobile menu" tabindex="0">
+                    <ul class="mobile-menu-list">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#project">Project</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dalwin-404/" target="_blank" aria-label="Follow Me On Github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <button id="theme-toggle-mobile" aria-label="Toggle Day and Night Mode" class="theme-toggle">
+                            <i class="fas fa-sun"></i>
+                        </button>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="text-container">
+            <div class="greeting">Hey, there</div>
+            <h1 id="typing-text" class="main-title"></h1>
+            <p class="roles">
+                <span>Frontend Developer</span>
+            </p>
+            <a href="#about" class="about-btn">
+                <div class="btn-content">
+                    <div class="icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="text">
+                        <span>More About Me</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="heading-border"></div>
+                <p>Here you will find information about me and my range of skills and knowledge in programming and
+                    technology that enable me to excel in this field.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="content-section">
+                    <h3 class="content-title">Get to know me</h3>
+                    <p class="details">My proficiency in CSS, HTML, and JavaScript, coupled with my relentless pursuit
+                        for knowledge, enables me
+                        to create responsive and user-friendly websites that meet the unique needs and preferences of my
+                        clients.
+                        Whether executing custom web solutions or implementing cutting-edge designs,
+                        I devote myself fully to ensuring that the end result is top-tier.
+                    </p>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-title">My Skills</h3>
+                    <div class="skills">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React</div>
+                        <div class="skill">Bootstrap</div>
+                        <div class="skill">Tailwind</div>
+                        <div class="skill">GIT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-row">
+            <a href="#contact" class="btn hire-me">Hire Me</a>
+            <a href="./images/AYANBOYE WINNER OLUWASEMILORE CV .pdf" class="btn download-cv"
+                download="download-cv">Download CV</a>
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="project">
+        <div class="portfolio container">
+            <div class="portfolio-header">
+                <h4>Portfolio</h4>
+                <hr class="header-line">
+                <h2>Check Out My Work</h2>
+                <p class="description">Here is a small sample of my projects.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="project">
+                    <a href="images/project1.jpg" data-lightbox="images" data-title="Clipboard Landing Page">
+                        <img src="images/project1.jpg" alt="" class="img-fluid rounded-3">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project2.jpg" data-lightbox="images" data-title="Loop Studio Website">
+                        <img src="images/project2.jpg" alt="Project 2">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project3.jpg" data-lightbox="images" data-title="Shortly Website">
+                        <img src="images/project3.jpg" alt="Project 3">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project4.jpg" data-lightbox="images" data-title="Flyo Website">
+                        <img src="images/project4.jpg" alt="Project 4">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project5.jpg" data-lightbox="images" data-title="Bookmark Website">
+                        <img src="images/project5.jpg" alt="Project 5">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project6.jpg" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project6.jpg" alt="Project 6">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project7.png" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project7.png" alt="Project 7">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project8.png" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project8.png" alt="Project 8">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project9.jpg" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project9.png" alt="Project 9">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project10.png" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project10.png" alt="Project 10">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project11.png" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project11.png" alt="Project 11">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="images/project12.png" data-lightbox="images" data-title="Grid Layout">
+                        <img src="images/project12.png" alt="Project 12">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact container">
+            <div class="contact-header">
+                <h4>Contact</h4>
+                <hr class="header-line">
+                <h2>I'd love to hear from you</h2>
+                <p class="description">If you have any questions or would like to work together, please
+                    contact me with the form below.</p>
+            </div>
+            <form action="https://formspree.io/f/mvojnaae" method="post" name="contact" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Message" class="form-input" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-container">
+        <p class="copyright">
+            &copy; 2024 | Design By Winner
+        </p>
+        <div class="social-icons">
+            <a href="https://github.com/dalwin-404/" target="_blank" aria-label="Github">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="#" aria-label="Twitter">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+
+
+        </div>
+    </div>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?40307';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#4dc247",
+                "ctaText": "Chat us",
+                "borderRadius": "25",
+                "marginLeft": "0",
+                "marginBottom": "50",
+                "marginRight": "50",
+                "position": "right",
+            },
+            "brandSetting": {
+                "brandName": "mamanation",
+                "brandSubTitle": "Typically replies within a day",
+                // "brandImg": "https:// cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+                "welcomeText": "Hi there! \nHow can I help you?",
+                //"messageText" : Hello, I have a question about {{page_link}}",
+                "backgroundColor": "0a5f54",
+                "ctaText": "Start Chat",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "2348118934795"
+            }
+        };
+        s.onload = function () {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+
+
+
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
