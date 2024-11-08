@@ -47,7 +47,6 @@ body.dark-theme .section-header h2 {
   color: #ffffff;
 }
 
-
 body.dark-theme a:hover {
   color: #ffff;
 }
@@ -211,7 +210,8 @@ img {
 /* Header styling */
 .header {
   height: 100vh;
-  background: #151515 url('../images/intro-bg.jpg') center center/cover no-repeat fixed;
+  background: #151515 url('../images/intro-bg.jpg') center center/cover
+    no-repeat fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,7 +253,6 @@ img {
 
 .main-title {
   font-size: 4rem;
-  /* Adjust size for your needs */
   font-weight: bold;
   color: #fff;
   margin-bottom: 0.5rem;
@@ -278,7 +277,6 @@ img {
 
 .about-btn:hover {
   background-color: #555;
-
 }
 
 .btn-content {
@@ -339,7 +337,7 @@ img {
 .button-row {
   margin-top: 3rem;
   text-align: center;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -376,7 +374,6 @@ img {
 
 .download-cv:hover {
   background-color: #555;
-  /* Slightly lighter shade */
   border-color: #555;
 }
 
@@ -538,7 +535,6 @@ img {
 /* Media Queries */
 
 @media (max-width: 768px) {
-
   .main-menu-items,
   .info-left {
     display: none;
@@ -555,7 +551,6 @@ img {
 
   .about-content {
     grid-template-columns: 1fr;
-
   }
 
   .content-title {
